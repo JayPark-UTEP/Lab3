@@ -30,6 +30,6 @@ int trycell(int *x, int pos)
 
     x[pos] = 0;
     sp = (unsigned long) returnsp();
-    printf("returning from trycell, Stack pointer register sp: %#8x\n", sp);
+    printf("Returning from trycell, Stack pointer register sp: %#8x\n", sp);
     return 0;
 }
